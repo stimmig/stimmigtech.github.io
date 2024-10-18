@@ -35,13 +35,15 @@
             font-size: 16px;
         }
 
-        .logo-container {
+        main {
             position: absolute;
             top: calc(100vh - (100vh / 1.618));
             transform: translateY(-50%);
         }
 
         footer {
+            position: absolute;
+            bottom: 0;
             font-size: 1rem;
             padding: 1rem;
             width: 100%;
@@ -50,14 +52,13 @@
     </style>
 </head>
 <body>
-<div class="logo-container">
+<main>
     <div style="width:50vw">
         <img src="./logo-light.svg" alt="Logo stimmig tech" height="auto" width="100%"/>
     </div>
-</div>
-<div style="flex:1"></div>
+</main>
 <footer>
-    <div>Stimmig GmbH<br/>Hohenrainstrasse 36<br/>6280 Hochdorf<br/>Switzerland</div>
+    <div>Stimmig GmbH<br/>Hohenrainstrasse 36, 6280 Hochdorf, Switzerland</div>
 </footer>
 </body>
 </html>
